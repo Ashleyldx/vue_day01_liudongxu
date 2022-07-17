@@ -14,6 +14,7 @@ export default {
 </script>
 
 <style>
+
 .packageBtn {
   width: 200px;
   height: 10px;

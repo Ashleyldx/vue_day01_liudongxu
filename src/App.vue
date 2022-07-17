@@ -1,11 +1,11 @@
 <template>
   <div class="packageBtn">
-    <PackageBtn @click="approveBtn" title="默认按钮"></PackageBtn>
-    <PackageBtn @click="mainBtn" title="主要按钮"></PackageBtn>
-    <PackageBtn @click="successBtn" title="成功按钮"></PackageBtn>
-    <PackageBtn @click="infoBtn" title="信息按钮"></PackageBtn>
-    <PackageBtn @click="warningBtn" title="警告按钮"></PackageBtn>
-    <PackageBtn @click="dangerBtn" title="危险按钮"></PackageBtn>
+    <PackageBtn type="default" title="默认按钮"></PackageBtn>
+    <PackageBtn type="primary" title="主要按钮"></PackageBtn>
+    <PackageBtn type="success" title="成功按钮"></PackageBtn>
+    <PackageBtn type="info" title="信息按钮"></PackageBtn>
+    <PackageBtn type="warning" title="警告按钮"></PackageBtn>
+    <PackageBtn type="danger" title="危险按钮"></PackageBtn>
   </div>
 </template>
 
